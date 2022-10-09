@@ -1,4 +1,4 @@
-const { lifeIndication } = require('../index');
+import lifeIndication from '../index';
 
 // test("Проверка работы функции healthy", () => {
 //   const result = lifeIndication({ name: "Маг", health: 90 });

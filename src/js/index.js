@@ -1,4 +1,4 @@
-function lifeIndication({ name, health }) {
+export default function lifeIndication({ name, health }) {
   switch (true) {
     case health >= 50:
       return `${name} healthy`;
@@ -10,7 +10,3 @@ function lifeIndication({ name, health }) {
 }
 
 lifeIndication({ name: 'Маг', health: 90 });
-
-module.exports = {
-  lifeIndication,
-};
